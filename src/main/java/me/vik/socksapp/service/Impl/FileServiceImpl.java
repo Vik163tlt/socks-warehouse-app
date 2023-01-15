@@ -39,7 +39,6 @@ public class FileServiceImpl implements FileService {
             e.printStackTrace();
             throw new RuntimeException();
         }
-
     }
 
     public void cleanFile() {
